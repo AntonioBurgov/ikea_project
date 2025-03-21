@@ -1,0 +1,57 @@
+.brochure-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .brochure-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .brochure-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .brochure-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+  
+  .brochure-image {
+    width: 100%;
+    height: 320px; 
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .brochure-info {
+    width: 100%;
+    padding: 25px; 
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px; 
+    border-radius: 0 0 8px 8px;
+    min-height: 90px; 
+  }
+  
+  .brochure-arrow {
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .brochure-arrow:hover {
+    opacity: 0.8;
+  }
+  

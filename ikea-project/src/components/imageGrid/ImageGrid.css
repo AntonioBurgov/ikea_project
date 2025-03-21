@@ -1,0 +1,67 @@
+.masonry-container {
+    column-count: 3; 
+    padding: 2rem;
+    max-width: 80rem;
+    margin: auto; 
+}
+
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem; 
+    break-inside: avoid;
+    position: relative;
+}
+
+.masonry-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+    padding: 1em 0.5rem;
+}
+
+.dot {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.dot:hover .tooltip {
+    display: block;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: -2.5rem;
+    left: 1rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .masonry-container {
+        column-count: 2; 
+    }
+}
+
+@media (max-width: 480px) {
+    .masonry-container {
+        column-count: 1; 
+    }
+}

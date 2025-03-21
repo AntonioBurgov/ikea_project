@@ -1,0 +1,107 @@
+.sustainability-section {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sustainability-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sustainability-slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sustainability-slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.sustainability-slide {
+    flex: 1;
+    max-width: calc(20% - 10px); 
+    position: relative;
+    overflow: hidden;
+}
+
+.sustainability-image {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.sustainability-info {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+}
+
+.sustainability-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.sustainability-info a:hover {
+    text-decoration: underline;
+}
+
+.slider-arrow {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.slider-arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    .sustainability-slider-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .sustainability-slide {
+        max-width: calc(50% - 10px); 
+    }
+
+    .sustainability-image {
+        height: 200px; 
+    }
+
+    .sustainability-info {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

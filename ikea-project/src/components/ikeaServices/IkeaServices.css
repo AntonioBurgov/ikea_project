@@ -1,0 +1,72 @@
+.ikea-services-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .ikea-services-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .ikea-services-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .ikea-services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: nowrap;
+  }
+  
+  .ikea-service-box {
+    background: #f0f0f0; 
+    padding: 30px;
+    text-align: center;
+    width: 24%; 
+    min-height: 220px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .ikea-service-box:hover {
+    background: #e0e0e0; 
+  }
+  
+  .ikea-service-icon {
+    font-size: 48px; 
+    margin-bottom: 15px;
+    color: #0058A3; 
+  }
+  
+  .ikea-service-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .ikea-service-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0058A3; 
+    text-decoration: none;
+    margin-top: auto;
+  }
+  
+  .ikea-service-link:hover {
+    text-decoration: underline;
+  }
+  

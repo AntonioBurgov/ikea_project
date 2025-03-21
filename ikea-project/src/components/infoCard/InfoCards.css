@@ -1,0 +1,58 @@
+.info-cards-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  .info-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .info-card {
+    background: #8B5A2B; 
+    color: white; 
+    width: 48%; 
+    min-height: 200px; 
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .info-card:hover {
+    background: #6B4423; 
+  }
+  
+  .info-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .info-card .info-card-btn {
+    background: white;
+    color: #8B5A2B;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .info-card .info-card-btn:hover {
+    background: #6B4423;
+    color: white;
+  }
+  
